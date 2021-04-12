@@ -1027,10 +1027,10 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.1.1.tgz#70a7855888e287f7add66002211a423937063eaf"
   integrity sha512-5Kgy8Cz6LPC9DJcNb3yjAXTu3XihQgEdnIg50c//zOC/MyLP0Clg+Y8Sh9ZjjnvBrDZU4DgXS9C3T9r4/scGZQ==
 
-axe-sarif-converter@^2.6.1:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/axe-sarif-converter/-/axe-sarif-converter-2.6.1.tgz#e053b95a40f947965a31b2df7b4f77d8dfacffc3"
-  integrity sha512-gqKo+QiFIfeJHCKF+6hIXd93+Kbig7PFpy52WAL77TXpgIMjHNWp9i29OyKprY1TsYimyN8jfhSWH8KU/+29tA==
+axe-sarif-converter@^2.6.2:
+  version "2.6.2"
+  resolved "https://registry.yarnpkg.com/axe-sarif-converter/-/axe-sarif-converter-2.6.2.tgz#a8484016399ea26cae9e0c494e153ef488f9b60e"
+  integrity sha512-AXci0/CLxPlJ2IfjFyYiryf1E6vhkpeFTle3XO3nEnV7RlcNA5frnl+8e8m27uUVXwa9VBSm/nkAUZrLHhtNsw==
   dependencies:
     "@types/sarif" ">=2.1.1 <=2.1.4"
     axe-core "^3.2.2 || ^4.0.0"
