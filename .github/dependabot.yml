@@ -1,0 +1,63 @@
+version: 2
+updates:
+- package-ecosystem: nuget
+  directory: "/csharp-selenium-webdriver-sample"
+  schedule:
+    interval: daily
+    time: "21:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: Selenium.WebDriver.ChromeDriver
+    versions:
+    - 89.0.4389.2300
+  - dependency-name: MSTest.TestFramework
+    versions:
+    - 2.2.1
+  - dependency-name: MSTest.TestAdapter
+    versions:
+    - 2.2.1
+  - dependency-name: Microsoft.NET.Test.Sdk
+    versions:
+    - 16.9.1
+- package-ecosystem: npm
+  directory: "/typescript-selenium-webdriver-sample"
+  schedule:
+    interval: daily
+    time: "21:00"
+  open-pull-requests-limit: 10
+  versioning-strategy: increase
+  ignore:
+  - dependency-name: "@types/node"
+    versions:
+    - 14.14.26
+    - 14.14.27
+    - 14.14.28
+    - 14.14.29
+    - 14.14.30
+    - 14.14.31
+    - 14.14.32
+    - 14.14.33
+    - 14.14.34
+    - 14.14.35
+    - 14.14.36
+    - 14.14.37
+    - 14.14.39
+    - 14.14.41
+    - 15.0.0
+  - dependency-name: y18n
+    versions:
+    - 4.0.1
+  - dependency-name: "@types/jest"
+    versions:
+    - 26.0.21
+    - 26.0.22
+  - dependency-name: selenium-webdriver
+    versions:
+    - 4.0.0-beta.1
+    - 4.0.0-beta.2
+  - dependency-name: geckodriver
+    versions:
+    - 1.22.2
+  - dependency-name: chromedriver
+    versions:
+    - 89.0.0
